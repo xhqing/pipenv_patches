@@ -27,5 +27,18 @@ now, you can using `pipenvPython` to create your virtualenv in the root dir of y
 if you dont use `.zshrc` file, maybe you need config your `.bashrc` file or others, but i dont know the second problem if exists in other shell yet,
 currently the second problem can be solved only when you use zsh.
 
+## Test
+Development in MacOS Python3.6, test in Ubuntu Python3.6, not support windows yet.
+Test with Ubuntu docker images, you can use `Dockerfile` in current dir to build container for test as follows:
+```
+docker build test_pipenv_patches .
+docker run -it --name=test_pipenv_patches test_pipenv_patches 
+```
+or pull test images i have built as follows:
+```
+docker pull xhq123/test_pipenv_patches
+``` 
+have fun.
+
 ## License
 This project is licensed under the terms of the MIT license. See [LICENSE](https://github.com/xhqing/pipenv_patches/blob/master/LICENSE) for additional details.  
