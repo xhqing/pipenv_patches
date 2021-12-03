@@ -1,6 +1,6 @@
 # pipenv_patches
 ## What is pipenv?
-About [pipenv website](https://pipenv.pypa.io/en/latest/)
+Know more about pipenv [here](https://pipenv.pypa.io/en/latest/).
 
 ## Description
 Mainly solving two problems of pipenv:
