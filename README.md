@@ -1,4 +1,7 @@
 # pipenv_patches
+## What is pipenv?
+About [pipenv website](https://pipenv.pypa.io/en/latest/)
+
 ## Description
 Mainly solving two problems of pipenv:
 1. Correctly showing the beautiful prompt virtualenvs' name of current project in the `~/.local/share/virtualenvs`;
