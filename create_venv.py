@@ -13,6 +13,6 @@ if __name__ == "__main__":
 
     os.system("pipenv --rm")
     if python_version == "py36":
-        os.system("pipenv --python /Users/mac/opt/anaconda3/envs/python36/bin/python3.6")
+        os.system("pipenv --python ~/opt/anaconda3/envs/python36/bin/python3.6")
     elif python_version == "py39":
-        os.system("pipenv --python /Users/mac/opt/anaconda3/envs/py39/bin/python3.9")
+        os.system("pipenv --python ~/opt/anaconda3/envs/py39/bin/python3.9")
