@@ -8,5 +8,5 @@ if __name__ == "__main__":
     except IndexError:
         raise CommandError(f"""\033[01;31;01m `python uninstall.py package_name`\033[01;31;01m""")
 
-    os.system(f"pipenv uninstall --skip-lock {package_name}")
+    os.system(f"pipenv uninstall {package_name}")
     os.system(f"pipenv run pip uninstall -y {package_name}")
